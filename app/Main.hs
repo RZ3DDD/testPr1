@@ -12,3 +12,4 @@ module Main (main) where
     nnn <- getLine
     putStrLn ("Вы ввели число: " ++ nnn)
     print (evenTest (read nnn))
+    putStrLn  "Вот и всё, отработала я!"
